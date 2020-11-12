@@ -98,39 +98,39 @@ body{
   }
 
 
-  @media (max-width: 780px)  {
+  @media (max-width: 550px)  {
 
     .password{
-        width: 70%;
-        height: 30px;
-        font-size: 1rem;
+        width: 55%;
+        height: 20px;
+        font-size: 0.6rem;
     }
 
     .copy{
-        font-size: 15px;
-        width: 54px;
-        height: 34px;
+        font-size: 6px;
+        width: 34px;
+        height: 24px;
       }
 
       .condition{
-        margin: 40px 15px;
-        font-size: 1rem;
+        margin: 40px 5px;
+        font-size: 0.8rem;
       }
       
       input[type="checkbox"]{
-       width: 13px;
-       height: 13px;
+       width: 10px;
+       height: 10px;
       }
       
       input[type="number"]{
-       width: 55px;
-       height: 12px;
+       width: 40px;
+       height: 9px;
        font-size: 10px;
       }
 
       .genBtn{
-        font-size: 0.8rem;
-        width: 85%;
-        height: 29px;
+        font-size: 0.7rem;
+        width: 75%;
+        height: 20px;
       }
   }
