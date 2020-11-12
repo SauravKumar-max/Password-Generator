@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="sp-password"> 
+         <div class="password">
+           JamesBond@007 
+         </div> 
+         <button class="copy">copy</button> 
+        </div> 
+        <div class="condition"> 
+         <div class="control"> 
+          <label class="label" for="length">Password Length</label> 
+          <input id="length" type="number" value="6" maxlength="4" min="4" max="10"> 
+         </div> 
+         <div class="control"> 
+          <label class="label" for="upper">UpperCase </label> 
+          <input id="upper" name="upper" type="checkbox"> 
+         </div> 
+         <div class="control"> 
+          <label class="label" for="lower">LowerCase</label> 
+          <input id="lower" name="lower" type="checkbox"> 
+         </div> 
+         <div class="control"> 
+          <label class="label" for="number">Numbers </label> 
+          <input id="number" name="number" type="checkbox"> 
+         </div> 
+         <div class="control"> 
+          <label class="label" for="symbol">Symbols </label> 
+          <input id="symbol" name="symbol" type="checkbox"> 
+         </div> 
+        </div> 
+        <div class="generate"> 
+         <button class="genBtn">Generate Password</button> 
+        </div> 
+       </div> 
+      <script src="app.js"></script>
+</body>
+</html>
